@@ -1,0 +1,62 @@
+Víde de IA
+
+Tópicos:
+
+Falar sobre o problema:
+
+- O objetivo deste projeto é implementar uma rede neural capaz de locomover um robô em um ambiente desconhecido sem 
+colisão entre obstáculos.
+
+
+O robô:
+
+- O robô deve possuir um modelo cinemático diferencial, ou seja, apenas duas rodas que podem ser giradas de forma livres.
+
+
+
+A ferramenta utilizada:
+
+- A ferramenta utilizada foi o VRep. Ferramenta gratuita para uso acadêmico, não comercial.
+
+- Esta ferramenta é compatível com várias linguagens de programação (python, c++, matlab, lua e etc).
+
+- Quando o vrep é executado, ele inicia um servidor em Lua. Este servidor é responsável por fazer a integração entre
+as linguagens citadas acima com o proprio vrep.
+
+
+
+Sobre o código:
+
+- A função rand foi criada para gerar numemros aleatorios no intervalo dado
+- A função de ativação sigmoid e sua derivada que é utilizada no backpropagation
+- Inicialização dos valores da classe RedeNeural (numero de iteração maximo, erro desejado, momentum, passo de treinamento, quantidade de neuronios)
+
+
+Robo utilizado, e aquisição do conjunto de treinamento:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tempo de vídeo:
+1:04
+0:16
+2:31
+2:40
+--------
+6:31
+
+
